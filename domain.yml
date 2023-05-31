@@ -1,0 +1,112 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - name
+  - places
+  - TripDuration
+  - Thailand
+  - Malaysia
+  - Singapore
+  - Flights
+  - CovidQuarantine
+  - TravelRequirements
+  - EstimatedBudgetThailand
+  - hours
+  - ThrillActivities
+  - facilities
+  - thanks
+  
+responses:
+  utter_greet:
+  - text: "Hello!"
+  - text: "Hey!"
+  - text: "What can I do for you?"
+  - text: "Hey Dude"
+
+  utter_name:
+  - text: "My name is Magellan<br />you can call me Meg"
+  - text: "I'm Magellan"
+  - text: "I'm Magellan your virtual travel assistant"
+
+  utter_places:
+  - text: "We have a list of the best countries to visit from India without burning a while in your pocket. <br /> Here is the list of 24 best Countries to Visit From India For A Budget Dream Vacation!<br /> 1. Thailand <br /> 2. Sri Lanka <br /> 3. Bhutan <br /> 4. Nepal <br /> 5. Vietnam <br /> 6. Laos <br /> 7. Philippines <br /> 8. Malaysia <br /> 9. Singapore <br /> 10. Cambodia <br /> 11. Indonesia <br /> 12. UAE <br /> 13. Myanmar <br /> 14. Egypt <br /> 15. Turkey <br /> 16. China <br /> 17. Russia <br /> 18. Kazakhstan <br /> 19. Hong Kong <br /> 20. Georgia <br /> 21. Taiwan <br /> 22. Qatar <br /> 23. Jordan <br /> 24. Kenya"
+
+  utter_IndiaPlaces:
+  - text: "We have a list of best places to visit in India. <br /> Here is the list of Best places to visit, A Budget Dream Vacation!<br /> 1. Goa <br /> 2. Agra <br /> 3. Rajasthan <br /> 4. Delhi <br /> 5. Munnar <br /> 6. Coorg <br /> 7. Manali <br /> 8. Ooty <br /> 9. Lonavala <br /> 10. Khandala <br /> 11. Shillong <br /> 12. Varanasi <br /> 13. Kolkata <br /> 14. Amritsar <br /> 15. Sikkim <br /> 16. Shimla <br /> "
+
+  utter_goodbye:
+  - text: "GoodBye, Have a nice day."
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_TripDuration:
+  - text: "How long can we plan for this trip?"
+  - text: "How long does it take to visit all the places?"
+
+  utter_Thailand:
+  - text: "Thailand is the most travelled tourist destination for budget-friendly people and is the 20th most populous country in the world. It offers you interaction with friendly & gregarious people and diverse activities to experience. Starting from clubbing, diving into turquoise watered beaches, devouring on cheap street food, the chaotic markets where you can find anything that interests you, the night skyline, the authentic spas to relax your senses and last but not the least the polite and easy-going people of Thailand. Some of the few places that one must visit include Bangkok for its city parties, Pattaya for its nightlife, Chiang Rai for mountain trekking, Koh Samui and Krabi for the beautiful pristine beaches. \n\nFlight Tickets - INR 15,000- INR 20,000 (Roundtrip)\nDaily Expenses - INR 3,000- INR 3,500 (Including living, travelling, eating)"
+
+  utter_Malaysia:
+  - text: "Sharing borders with Thailand, Indonesia and Brunei, Malaysia is in the equatorial region of the globe. The tropical rainforest climate covers this land throughout the year. If you are someone looking mountain ranges, forested hills and coastal plains, Malaysia is your destination. The Megadiverse country is estimated to contain 20% of the world's number of species. Hosting a wide range of Rafflesia genus, Malaysia is home to the largest flower in the world. With exotic dishes that blend Indian, Thai and Malay flavours, Malaysian food reflects its multi-ethnic culture. One of the gazetted festivities of Malaysia is Thaipusam with colourful, exhilarating and joyous celebrations. Flight Tickets (To Kuala Lumpur) - INR 15,000 - INR 20,000 (Roundtrip)\nDaily Expenses - INR 3200 - INR 5000 per day Get Customized Packages Starting from INR 40,000"
+  
+  utter_TajMahal:
+  - text: "The Taj Mahal is an iconic white marble mausoleum located in Agra, India. It was commissioned by the Mughal emperor Shah Jahan in 1632 as a memorial for his beloved wife, Mumtaz Mahal, who passed away during childbirth. Renowned for its architectural beauty and intricate detailing, the Taj Mahal is a UNESCO World Heritage site and attracts millions of visitors annually. The construction cost of the Taj Mahal is estimated to have been around 32 million Indian rupees, which would be approximately $827 million in today's value. The Indian government allocates a budget for the maintenance, preservation, and enhancement of the monument, ensuring its longevity for future generations to enjoy.<br /> A budget of approximately ₹25,000 to ₹50,000 per person for a few days' visit to the Taj Mahal should provide a reasonable estimate"
+  
+  utter_Singapore:
+  - text: "Singapore is filled with an unbelievable amount of creativity, culture and cuisines. It is the perfect combination of tall intricate buildings, islands and narrow streets which make it a fascinating country of Asia that you can visit with a small budget. Also called 'The Lion City', it remains in touch with the old heritage with a few glimpses of its culture in various decorated temples. Food being the most important part of a country's culture, Singapore provides with a variety of cuisines ranging from chicken rice, chilli crab and fish head curry to oyster omelettes and pork ribs. You will find various hawkers centres which are like a permanent food festival where food is cheap, quality is extremely high, and hygiene is something you don't have to worry about! Flight Tickets - INR 17,000- INR 22,000 (Roundtrip)\nDaily Expenses - INR 6,000- INR 7,500 (If spent wisely)"
+
+  utter_BudgetSingapore:
+  - text: "Flight Tickets - INR 17,000- INR 22,000 (Roundtrip) Daily Expenses - INR 6,000- INR 7,500 (If spent wisely)"
+
+  utter_Banglore:
+  - text: "Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state. The center of India's high-tech industry, the city is also known for its parks and nightlife. By Cubbon Park, Vidhana Soudha is a Neo-Dravidian legislative building. Former royal residences include 19th-century Bangalore Palace, modeled after England’s Windsor Castle, and Tipu Sultan’s Summer Palace, an 18th-century teak structure."
+
+  utter_BudgetBangalore:
+  - text: "Flight Tickets - INR 7000- INR 10000 (Roundtrip) Daily Expenses - INR 1000- INR 1500 (If spent wisely) <br /> If You use Road trasport like bus ,car it will cost nearly INR 2000 -4000 "
+  
+  utter_CovidQuarantine:
+  - text: "If you are double vaccinated, then no worries you can skip quarntine and can enjoy the trip."
+
+  utter_Flights:
+  - text: "You can try some local flights or the country specific flights, like Malindo Airlines, Air Asia, etc. I would suggest you to check with some flight ticket comparing websites"
+
+  utter_TravelRequirements:
+  - text: "You must have a valid Passport \n Visa if required or you can also opt for on arrival visa if the country provides" 
+  - text: "Travel insurance" 
+  - text: "covid vaccination certificate" 
+  - text: "Hotel bookings for proof of staying."
+
+  utter_EstimatedBudgetThailand:
+  - text: "Flight Tickets - INR 15,000- INR 20,000 (Roundtrip)\nDaily Expenses - INR 3,000- INR 3,500 (Including living, travelling, eating)."
+
+  utter_hours:
+  - text: "You can message us here at any hours. As I am a programed AI, I will be available 24/7"
+
+  utter_ThrillActivities:
+  - text: "Yes, Of course. But the activites will vary for different countries, like if you are in thailand, you can try some exotic foods in china town. \n You can try some adventerous things like tiger park, snake show, crocodile show, etc."
+
+  utter_facilities:
+  - text: "With excellent trip expereince, you can expect most of the facilities that  can be accessed in your buget, but we would suggest you to spend wisely for better experience. \n As a foreigner you need a skill of bargaining in different countries."
+
+  utter_Pay:
+  - text: "Absolutely nothing! But still we have a fees.... \n That's your smile \n Have a smile and enjoy the trip and dont forget to rate us XD"
+
+  utter_thanks:
+  - text: "Happy to help!"
+  - text: "Any time!"
+  - text: "My pleasure"  
+
+  utter_default:
+  - text: "Sorry, can't understand you"
+  - text: "Please give me more info"
+  - text: "Not sure I understand"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

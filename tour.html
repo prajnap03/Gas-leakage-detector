@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.104.2">
+  <title>Tours</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
+
+  <!-- Fontawesome  -->
+  <script src="https://kit.fontawesome.com/664fe6d04e.js" crossorigin="anonymous"></script>
+  <script src="/static/js/app.js"></script>
+  <link rel="stylesheet" href="static/css/tooplate-antique-cafe.css">
+
+  <!-- stylesheet links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/css/tour_styles.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Nunito:wght@300;400&display=swap"
+    rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+  <meta name="theme-color" content="#712cf9">
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark colored">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Explore earth</a>
+        <ul class="navbar-nav ml-auto d-flex">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tour</a>
+
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="py-5 text-center container colored">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light heading">Welcome to our tours!</h1>
+          <p class="lead descp">
+            Welcome to Explore Earth, your one-stop shop for all your travel needs. We are a full-service travel agency
+            with a focus on helping you create memories that will last a lifetime.
+            <br>
+            At Explore Earth, we offer world-class packages for the most discerning traveler. Whether you’re looking for
+            a romantic getaway or an adventurous family vacation, we have a package that’s perfect for you. Our packages
+            include airfare, hotel accommodations, car rentals, and even guided tours.
+          </p>
+          <!-- <p>
+              <a href="#" class="btn btn-primary my-2">Main call to action</a>
+              <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+            </p> -->
+        </div>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img class="bd-placeholder-img card-img-top" src="static/images/Taj_Mahal.jpg" alt="" height="225">
+              <div class="card-body">
+                <p class="card-text">The <span class="title">Taj Mahal</span>, is an Islamic ivory-white marble
+                  mausoleum on the right bank of the river Yamuna in the Indian city of <span class="imp">Agra</span>.
+                  It was commissioned in 1631 by the Mughal emperor <span class="imp">Shah Jahan</span> to house the
+                  tomb of his favourite wife, <span class="imp">Mumtaz Mahal</span>.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-outline-primary" onclick="count_taj()"><a
+                        href="Taj">View</a></button>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <small class="text-muted taj-count">0 visited</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img class="bd-placeholder-img card-img-top" src="static/images/Mysore_palace.jpg" alt="" height="225">
+              <div class="card-body">
+                <p class="card-text">The <span class="title">Mysore Palace</span>, also known as Amba Vilas Palace, is a
+                  historical palace and a royal residence. It is located in Mysore, Karnataka. It used to be the
+                  official residence of the <span class="imp">Wadiyar dynasty</span> and the seat of the <span
+                    class="imp">Kingdom of Mysore</span>.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-outline-primary" onclick="count_mysore()">View</button>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <!-- <small class="text-muted">⭐ 4.5</small> -->
+                  <small class="text-muted mysore-count">0 visited</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img class="bd-placeholder-img card-img-top" src="static/images/Nalanda_university.jpg" alt=""
+                height="225">
+              <div class="card-body">
+                <p class="card-text"><span class="title">Nalanda University</span> was one of the first universities in
+                  the world, founded in the <span class="imp">5th Century BC</span>, and reported to have been <span
+                    class="imp">visited by the Buddha</span> during his lifetime. At its peak, in the 7th century AD,
+                  Nalanda held some <span class="imp">10,000 students and 2000 teachers</span>.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-outline-primary" onclick="count_nalanda()">View</button>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <small class="text-muted nalanda-count">0 visited</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img class="bd-placeholder-img card-img-top" src="static/images/Goa.jpg" alt="" height="225">
+              <div class="card-body">
+                <p class="card-text"><span class="title">Goa</span> is a state on the southwestern coast of India within
+                  the Konkan region, geographically separated from the Deccan highlands by <span class="imp">the Western
+                    Ghats</span>. It is located between the Indian states of Maharashtra to the north and Karnataka to
+                  the east and south, with the <span class="imp">Arabian Sea</span> forming its western coast.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-outline-primary" onclick="count_goa()">View</button>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <small class="text-muted goa-count">0 visited</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img class="bd-placeholder-img card-img-top" src="static/images/Ooty.jpg" alt="" height="225">
+              <div class="card-body">
+                <p class="card-text"><span class="title">Ooty</span>, officially known as Udhagamandalam, is a city and
+                  a municipality in the Nilgiris district of the South Indian <span class="imp">state of Tamil
+                    Nadu</span>. It is located 86 km north west of Coimbatore and 128 km south of Mysore and is the
+                  <span class="imp">headquarters of the Nilgiris district</span>. It is a popular hill station located
+                  in the Nilgiri Hills.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-outline-primary" onclick="count_ooty()">View</button>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <small class="text-muted ooty-count">0 visited</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img class="bd-placeholder-img card-img-top" src="static/images/Golden_temple.jpg" alt="" height="225">
+              <div class="card-body">
+                <p class="card-text"><span class="title">The Golden Temple</span>, also known as Harmandir Sahib,
+                  meaning "everyone's temple or house" or <span class="imp">Darbār Sahib</span>, meaning "exalted
+                  court", is a Gurdwara located in the city of <span class="imp">Amritsar, Punjab, India</span>. It is
+                  the holiest Gurdwara and the most important <span class="imp">pilgrimage site of Sikhism.</span></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-outline-primary" onclick="count_golden()">View</button>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <small class="text-muted golden-count">0 visited</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img class="bd-placeholder-img card-img-top" src="static/images/Varanasi.jpg" alt="" height="225">
+              <div class="card-body">
+                <p class="card-text"><span class="title">Varanasi</span> is a city on the Ganges river in northern India
+                  that has a central place in the <span class="imp">traditions of pilgrimage</span>, death, and mourning
+                  in the Hindu world. The city has a syncretic <span class="imp">tradition of Muslim artisanship</span>
+                  that underpins its religious tourism.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-outline-primary" onclick="count_varanasi()">View</button>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <small class="text-muted varanasi-count">0 visited</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img class="bd-placeholder-img card-img-top" src="static/images/Kedarnath.jpg" alt="" height="225">
+              <div class="card-body">
+                <p class="card-text"><span class="title">Kedarnath</span> is a town and Nagar Panchayat in Rudraprayag
+                  district of <span class="imp">Uttarakhand, India</span>, known primarily for the Kedarnath Temple. It
+                  is approximately 86 kilometres from Rudraprayag, the district headquarter.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-outline-primary" onclick="count_kedarnath()">View</button>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <small class="text-muted kedarnath-count">0 visited</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img class="bd-placeholder-img card-img-top" src="static/images/Rishikesh.jpg" alt="" height="225">
+              <div class="card-body">
+                <p class="card-text"><span class="title">Rishikesh</span>, also spelt as Hrishikesh, is a city near
+                  Dehradun in Dehradun district of the Indian state Uttarakhand. It's situated on the <span
+                    class="imp">right bank of the Ganges River</span>, it's a pilgrimage town for Hindus, with ancient
+                  sages and <span class="imp">saints meditating</span>.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-outline-primary" onclick="count_rishikesh()">View</button>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <small class="text-muted rishikesh-count">0 visited</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ Chatbot Section  ============= -->
+    <!-- ============ Chatbot Section  ============= -->
+
+
+    <div id="chatapps" onclick="clicks()" style="z-index: 100; position: fixed;bottom: 40px;right: 40px;">
+      <i class='fas fa-comment' style='font-size:48px;color:rgba(241, 41, 15, 0.952);'></i>
+    </div>
+
+    <center id="chatapp" style="z-index: 110;position: fixed;bottom:40px;right: 40px;">
+      <div id="chat"
+        style="width: 300px;margin-top: 50px;padding: 5px; background-image: url(/static/home/img/wood.jpg); border-radius: 5px;">
+        <p style="color: whitesmoke; font-size: x-small; float: right;" onclick="clickapp()">hide</p>
+        <h2 style="color: whitesmoke; font-size: medium;">Tourism Chatbot</h2>
+        <div class="row"
+          style="width:100%;height: 350px;background-color: #ffffffc4;overflow-y: auto; border-radius:5px;" id="chats">
+        </div>
+        <div class="row" style="margin-top: 20px;">
+          <form class="form-inline">
+            <button type="button" class="btn btn-default" onclick="sound()"><svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">
+                <path
+                  d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z" />
+                <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z" />
+              </svg></button>
+            <div class="form-group">
+              <input type="text" class="form-control" id="user">
+            </div>
+            <button type="button" class="btn btn-default" onclick="send()">Send</button>
+          </form>
+        </div>
+      </div>
+    </center>
+    <script>
+      $('#chatapp').hide();
+      function clicks() {
+        $('#chatapp').show();
+      }
+      function clickapp() {
+        $('#chatapp').hide();
+      }
+    </script>
+
+
+
+
+
+
+  </main>
+
+
+  <script type="text/javascript" src="/static/js/jquery-1.10.2.min.js"> </script>
+  <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/static/js/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="/static/js/jquery.mixitup.min.js"></script>
+  <script type="text/javascript" src="/static/js/main.js"></script>
+
+</body>
+
+</html>

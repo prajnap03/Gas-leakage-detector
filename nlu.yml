@@ -1,0 +1,169 @@
++version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - how is it going
+    - what's up
+    - good day
+    - Greetings
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: name
+  examples: |
+    - what is your name
+    - name
+    - what's your name
+    - who are you
+    - what should I call you
+
+- intent: places
+  examples: |
+    - Which places are open for travel?
+    - Which is the best place to visit now?
+
+- intent: IndiaPlaces
+  examples: |
+    - Places in India?
+    - Which are the best places to visit in India?
+
+- intent: TripDuration
+  examples: |
+    - How long can we plan for this trip?
+    - How long does it take to visit all the places?
+  
+- intent: Thailand
+  examples: |
+    - Thailand
+    - Budget for thailand?
+    - Best place to visit in Thailand
+
+- intent: Malaysia
+  examples: |
+    - Malaysia
+    - Budget for Malaysia?
+    - Best place to visit in Malaysia
+
+- intent: Singapore
+  examples: |
+    - Singapore
+    - Detail information Singapore?
+    - Best place to visit in Singapore
+
+- intent: TajMahal
+  examples: |
+    - TajMahal
+    - Detail information About TajMahal?
+    - Budget to TajMahal
+
+- intent: BudgetSingapore
+  examples: |  
+    - Budget for Singapore?
+    - Budget to travel Singapore?
+    - Total Budget for Singapore
+
+- intent: Banglore
+  examples: |
+    - Banglore
+    - Budget for Banglore?
+    - Best place to visit in Banglore  
+
+- intent: BudgetBangalore
+  examples: |  
+    - Budget for Bangalore?
+    - Budget to travel Bangalore?
+    - Total Budget for Bangalore
+
+- intent: Flights
+  examples: |
+    - Name some cheapest flights
+    - how much it could cost
+
+- intent: CovidQuarantine
+  examples: |
+    - Do we need to be in quarantine?
+    - how long we should be in quarantine?
+
+- intent: TravelRequirements
+  examples: |
+    - what are the travel requirements for international trip?
+    - entry requirements
+    - travel requirements
+
+- intent: EstimatedBudgetThailand
+  examples: |
+    - Budget for Thailand?
+    - How much it could cost for thailand?
+
+- intent: hours
+  examples: |
+    - what are your hours
+    - when are you guys open
+    - what your hours of operation
+
+- intent: ThrillActivities
+  examples: |
+    - will there be any thrill activities that i can try?
+    - does the package includes with any thrill program
+
+- intent: facilities
+  examples: |
+    - what facilities can be expected with this budget?
+    - what are the facilities available on this budget?
+
+- intent: Pay
+  examples: |
+    - Should I pay for your support
+    - what is the fee structure
+
+- intent: thanks
+  examples: |
+    - Thanks
+    - Thank you
+    - That's helpful
+    - Awesome, thanks
+    - Thanks for helping me

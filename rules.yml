@@ -1,0 +1,112 @@
+version: "3.0"
+
+rules:
+- rule: Greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: name
+  steps:
+  - intent: name
+  - action: utter_name
+
+- rule: places
+  steps:
+  - intent: places
+  - action: utter_places
+
+- rule: IndiaPlaces
+  steps:
+  - intent: IndiaPlaces
+  - action: utter_IndiaPlaces
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: TripDuration
+  steps:
+  - intent: TripDuration
+  - action: utter_TripDuration
+
+- rule: Thailand
+  steps:
+  - intent: Thailand
+  - action: utter_Thailand
+
+- rule: Malaysia
+  steps:
+  - intent: Malaysia
+  - action: utter_Malaysia
+
+- rule: Singapore
+  steps:
+  - intent: Singapore
+  - action: utter_Singapore
+
+- rule: TajMahal
+  steps:
+  - intent: TajMahal
+  - action: utter_TajMahal
+
+- rule: BudgetSingapore
+  steps:
+  - intent: BudgetSingapore
+  - action: utter_BudgetSingapore
+
+- rule: Banglore
+  steps:
+  - intent: Banglore
+  - action: utter_Banglore
+
+- rule: BudgetBangalore
+  steps:
+  - intent: BudgetBangalore
+  - action: utter_BudgetBangalore
+ 
+- rule: Flights
+  steps:
+  - intent: Flights
+  - action: utter_Flights
+
+- rule: CovidQuarantine
+  steps:
+  - intent: CovidQuarantine
+  - action: utter_CovidQuarantine
+
+- rule: TravelRequirements
+  steps:
+  - intent: TravelRequirements
+  - action: utter_TravelRequirements
+
+- rule: EstimatedBudgetThailand
+  steps:
+  - intent: EstimatedBudgetThailand
+  - action: utter_EstimatedBudgetThailand
+
+- rule: hours
+  steps:
+  - intent: hours
+  - action: utter_hours
+
+- rule: ThrillActivities
+  steps:
+  - intent: ThrillActivities
+  - action: utter_ThrillActivities
+
+- rule: facilities
+  steps:
+  - intent: facilities
+  - action: utter_facilities
+
+- rule: thanks
+  steps:
+  - intent: thanks
+  - action: utter_thanks
